@@ -35,8 +35,7 @@ else {
 }*/
 if(candidateAnswer!==correctAnswer)
 {
-  console.log("Correct Answer: "+correctAnswer);
-}
+  console.log("Correct Answer: "+correctAnswer);}
 
 }
 
