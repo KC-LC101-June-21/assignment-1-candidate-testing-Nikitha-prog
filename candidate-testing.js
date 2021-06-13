@@ -24,16 +24,20 @@ function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
 
 console.log("1) "+ question);
-candidateAnswer=input.question("Your Answer: ")
-
-if(candidateAnswer===correctAnswer)
+candidateAnswer=input.question("Your Answer: ");
+/*if(candidateAnswer===correctAnswer)
 {
 
-console.log("Correct Answer: "+candidateAnswer);
+console.log("Correct Answer: "+correctAnswer);
 }
 else {
-  console.log("Your answer is incorrect");
+  console.log("Correct Answer: "+correctAnswer);
+}*/
+if(candidateAnswer!==correctAnswer)
+{
+  console.log("Correct Answer: "+correctAnswer);
 }
+
 }
 
 function gradeQuiz(candidateAnswers) {
